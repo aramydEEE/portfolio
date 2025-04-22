@@ -1,2 +1,2 @@
-// const name = window.prompt();
-alert('Hello!');
+const n = window.prompt();
+alert(`Hello! ${n}`);
