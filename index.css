@@ -1,11 +1,36 @@
-.layer1{
+.layer1, .innerLayer{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 24px;
+    margin-top: 20px;
+}
+.innerLayer{
+    flex-wrap: wrap;
+   
 }
 #item1{
     border: 3px solid purple;
-    width: 300px;
-    height: 100vh;
+    width: 500px;
+    height: 90vh;
+    border-radius: 10px;
+    margin-left: 50px;
+   
 }
+#item2, #item3, #item4{
+    border: 3px solid rgb(212, 123, 212);
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    transition: all 2s 2s ease;
+    background-color: #efefef
+}
+#item2:hover, #item3:hover, #item4:hover{
+    box-shadow: 0 0 5px gray;
+    border: 3px solid purple;
+    transform: translateY(50px);
+    
+}
+/* body{
+    background-color: black;
+} */
