@@ -56,6 +56,9 @@
     height: 70px;
     box-sizing: border-box;
     padding: 5px;
+    font-weight: 900;
+    font-size: 0.8em;
+
  }
  #sell:hover{
     background-color: red;
