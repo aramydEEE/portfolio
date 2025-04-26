@@ -10,12 +10,12 @@ setTimeout(() => {
 setTimeout(()=>{
     const image = document.getElementById('item1');
     const displayName = document.createElement("p");
-    displayName.innerHTML ="<br> SAUVAGE"
+    displayName.innerHTML ="SAUVAGE"
     image.appendChild(displayName);
 
     const buttonBuy =document.createElement("button");
     image.appendChild(buttonBuy);
-    buttonBuy.innerHTML="<br> BUY NOW"
+    buttonBuy.innerHTML="BUY NOW"
     
     buttonBuy.id = "sell"
 },

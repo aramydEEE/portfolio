@@ -52,15 +52,16 @@
  #sell{
     color: red;
     border-radius: 20px;
-    width: 100px;
-    height: 70px;
-    box-sizing: border-box;
-    padding: 5px;
+    width: 120px;
+    height: 50px;
+    border: 2px solid red;
+    
     font-weight: 900;
-    font-size: 0.8em;
+    font-size: 1rem;
 
  }
  #sell:hover{
     background-color: red;
     color: white;
+    border: 2px solid white;
  }
