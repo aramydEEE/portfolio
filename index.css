@@ -49,6 +49,15 @@
     font-size: 1.2rem;
    
  }
- #sell:hover{
+ #sell{
     color: red;
+    border-radius: 20px;
+    width: 100px;
+    height: 70px;
+    box-sizing: border-box;
+    padding: 5px;
+ }
+ #sell:hover{
+    background-color: red;
+    color: white;
  }
