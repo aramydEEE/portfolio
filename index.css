@@ -1,4 +1,4 @@
-.layer1, .innerLayer{
+.layer1, #innerLayer{
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -6,7 +6,7 @@
     margin-top: 20px;
     text-align: center;
 }
-.innerLayer{
+#innerLayer{
     flex-wrap: wrap;
     img{
         width: 150px;
@@ -24,7 +24,7 @@
     margin-left: 50px;
    
 }
-#item2, #item3, #item4{
+#item2{
     border: 3px solid rgb(212, 123, 212);
     width: 300px;
     height: 300px;
@@ -32,15 +32,13 @@
     transition: all 2s 2s ease;
     background-color: #efefef
 }
-#item2:hover, #item3:hover, #item4:hover{
+#item2:hover{
     box-shadow: 0 0 5px gray;
     border: 3px solid purple;
-    transform: translateY(50px);
+    transform: translateY(30px);
     
 }
-/* body{
-    background-color: black;
-} */
+
  #main{
     width: 310px;
     transition: all 3s 2s ease;
@@ -105,4 +103,19 @@
     width: 98.5vw;
     min-height: 70px;
     border-bottom: 2px solid purple;
+ }
+ #buttonCart{
+   width: 150px;
+   height: 30px;
+   border-radius: 10px;
+   font-size: 1rem;
+   font-weight: 600;
+   color: orangered;
+   background-color: white;
+   
+ }
+ #buttonCart:hover{
+   border: none;
+   background-color: orangered;
+   color: white;
  }
