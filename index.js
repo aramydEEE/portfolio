@@ -1,5 +1,5 @@
-const personName = prompt("please enter your name");
-alert("Hello" + " " + personName + "," + "how are you today?");
+const personName = window.prompt("please enter your name");
+alert(`Hello ${personName} how are you today?`);
 
 
 const image = document.getElementById('item1');
